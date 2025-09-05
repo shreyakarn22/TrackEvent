@@ -32,31 +32,43 @@ A fully functional web-based Event Management System built using Django that all
 
 ## Clone the repository
 
-``git clone https://github.com/shreyakarn22/TrackEvent.git``
-``cd django-event-management``
+```bash 
+git clone https://github.com/shreyakarn22/TrackEvent.git
+cd django-event-management
+```
 
 ## Create a virtual environment
 
-``python -m venv env``
-``env\Scripts\activate``
+```bash
+python -m venv env
+env\Scripts\activate
+```
 
 ## Install dependencies
 
-``pip install -r requirements.txt``
+```bash
+pip install -r requirements.txt
+```
 
 ## Apply migrations
 
-``python manage.py migrate``
+```bash
+python manage.py migrate
+```
 
 ## Run development server
 
-``python manage.py runserver``
+```bash
+python manage.py runserver
+```
 
 ---
 
 ## Create superuse 
 
-``python manage.py createsuperuser``
+```bash
+python manage.py createsuperuser
+```
 
 
   
